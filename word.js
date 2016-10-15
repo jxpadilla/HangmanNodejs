@@ -26,7 +26,7 @@ var Word = function(wrd){
 		for (var i = 0; i < this.lets.length; i++) {
 			if (this.lets[i].charac === guessLetter) {
 				this.lets[i].appear = true;
-				letterReturn++;
+				letteReturn++;
 			}
 		}
 		return letterReturn;
